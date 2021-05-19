@@ -1,0 +1,17 @@
+import java.util.Random;
+
+public class Uc2 {
+
+	public static void main(String[] args) {
+		
+		Random ran=new Random();
+		
+		int playerposition = 0;
+		int Dice = ran.nextInt(6)+1;
+		
+		playerposition += Dice;
+		
+		
+		System.out.println(playerposition);
+}
+}
